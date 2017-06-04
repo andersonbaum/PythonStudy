@@ -1,5 +1,5 @@
-tempFah = input("Digite uma temperatura em ºF: ")
+tempFahrenheit = input("Digite uma temperatura em ºF: ")
 
-tempCel = (float(tempFah) - 32) * 5 / 9
+tempCelcius = (float(tempFahrenheit) - 32) * 5 / 9
 
-print("A temperatura em Celcius é", int(tempCel), "ºC")
+print("A temperatura em Celcius é", int(tempCelcius), "ºC")
